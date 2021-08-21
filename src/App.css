@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .App-logo {
@@ -35,4 +35,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;           
+}
+
+.movie{   
+    align-items: center;       
+}
+
+.movie-details{
+    padding-left: 30px;               
+}
+
+.poster-image{
+    border-radius: 10px;
+}
+
+.d-flex{
+    display: flex;            
+}
+
+.rating{
+    padding-right: 20px;
+}
+
+.input-group{
+    justify-content: space-between;   
+    margin-bottom: 20px;          
+}
+
+.search-field{
+    width: 80%;    
+    height: 30px; 
+    text-indent: 16px;         
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+.btn{
+    width: 200px;  
+    background-color: #ff8833;
+    border: none;   
+    border-radius: 8px;
+    cursor: pointer;
 }
